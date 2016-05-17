@@ -1,0 +1,17 @@
+This command line tool helps you to see the list of wifi ssids and password of the wireless that your pc has 
+connected to. This tool may come handy in the scenario like when you need to see your wifi password..
+
+** Installation
+#+BEGIN_SRC bash
+make install
+#+END_SRC
+** Help
++ wipass -a|-all         shows the list of ssids and password
++ wipass -s|--ssids      only shows the list of ssids
++ wipass -v|--version    version information
++ wipass -h|--help       help
+
+** Remove
+#+BEGIN_SRC bash
+make remove
+#+END_SRC

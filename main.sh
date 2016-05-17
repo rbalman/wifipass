@@ -1,11 +1,15 @@
 #!/bin/bash
 
-echo $0
 ## this will pull the ssid and password of all the wifi connection on the system
+
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-NM_PATH='/etc/NetworkManager/system-connections/'
-symbol='=>'
+
+CMD_NAME='wipas'
+INSTALL_DIR="/opt/$CMD_NAME/"
+NM_PATH='/etc/NetworkManager/system-connections/'  #### NM stands for network manager
+symbol='=>' 
+
 
 function show_all {
 
@@ -57,7 +61,7 @@ while true; do
 	-a|--all)      show_all; exit;;
 	-h|--help)     usage; exit;;
 	-s|--ssids)    show_ssids; exit;;
-	-v|--version)  exit;;
+	-v|--version)  cat "$INSTALL_DIR.version"; exit;;
 	*)            usage; exit;;
 
     esac
