@@ -5,8 +5,8 @@
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
-CMD_NAME='wipas'
-INSTALL_DIR="/opt/$CMD_NAME/"
+PKG_NAME='wipass'
+INSTALL_DIR="/opt/$PKG_NAME/"
 NM_PATH='/etc/NetworkManager/system-connections/'  #### NM stands for network manager
 symbol='=>' 
 
