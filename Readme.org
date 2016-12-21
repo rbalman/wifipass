@@ -1,5 +1,5 @@
 This command line tool helps you to see the list of wifi ssids and password of the wireless that your pc has 
-connected to. This tool may come handy in the scenario like when you need to see your wifi password..
+connected to. This tool may comes handy when you need to see your wifi password for multiple SSIDs..
 
 ** Installation
 #+BEGIN_SRC bash
