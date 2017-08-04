@@ -1,6 +1,8 @@
 This command line tool helps you to see the list of wifi ssids and password of the wireless that your pc has 
 connected to. This tool may comes handy when you need to see your wifi password for multiple SSIDs..
 
+Note: It will only work if you Operating System uses `NetworkManager` to manage Network.
+
 ** Installation
 #+BEGIN_SRC bash
 git clone https://github.com/javanux/wifipass.git
